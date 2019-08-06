@@ -126,7 +126,7 @@ textarea {
   float: right;
   font-family: 'Quicksand', sans-serif;
   margin-top: 1vw;
-  margin-right: 8vw;
+  margin-right: 11vw;
   font-size: 1.1vw;
   position: absolute;
   top: 10px;
@@ -226,11 +226,23 @@ body {
   top: 177vw;
   lefT: 22%;
 }
+#instak {
+  position: absolute;
+  width: 3%;
+  top: 99vw;
+  lefT: 22%;
+}
 
 #email {
   position: absolute;
   width: 3%;
   top: 39.7vw;
+  left: 26%;
+}
+#emailk {
+  position: absolute;
+  width: 3%;
+  top: 99.2vw;
   left: 26%;
 }
 
