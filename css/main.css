@@ -187,17 +187,40 @@ body {
     background-color: white;
 
 }
+/*#topimg {
+  border-right: 2px solid #766d5c;
+}*/
 .page {
   width: 80%;
-  margin: auto;
+  margin-left: 13%;
 }
 .container img {
   width: 100%;
 }
 .main {
   width: 100%;
-  height: 20vw;
+  margin: auto;
+}
+
+.main p {
+  width: 55%;
   display: inline-block;
+  float: left;
+  font-family: 'Quicksand', sans-serif;
+  font-size: 1.2vw;
+  color: #766d5c;
+  margin: 8% 5%;
+}
+#portrait {
+  width: 15%;
+  display: inline-block;
+  float: right;
+  margin-right:19%;
+  margin-top: 5%;
+  margin-bottom: 5%;
+  border-left: 2px solid #766d5c;
+
+
 }
 .categories {
   display: inline-block;
@@ -209,17 +232,39 @@ body {
 .categories img {
   width: 100%;
 }
-
+#border {
+  border: 1px solid black;
+  width: 29.5%;
+}
+#iconspace {
+  width: 20%;
+  display: inline-block;
+}
 #bottom {
-  width: 100%;
-  position: relative;
+  width: 70%;
+  display: inline-block;
+  float: left;
+  /*border-left: 2px solid #766d5c;*/
+
 }
+
 #insta {
-  position: absolute;
-  width: 3%;
-  top: 39.5vw;
-  lefT: 22%;
+  width: 20%;
+  margin-left: 10%
+
 }
+#email {
+  width: 20%;
+  margin-top: 5px;
+  margin-left: 10px;
+
+}
+#spoonflower {
+  width: 25%;
+  margin-left: 10px;
+  margin-top: 3px;
+}
+/*
 #instag {
   position: absolute;
   width: 3%;
@@ -233,12 +278,7 @@ body {
   lefT: 22%;
 }
 
-#email {
-  position: absolute;
-  width: 3%;
-  top: 39.7vw;
-  left: 26%;
-}
+
 #emailk {
   position: absolute;
   width: 3%;
@@ -252,10 +292,9 @@ body {
   top: 177.2vw;
   left: 26%;
 }
-
-
-.bottom img{
-  width: 100%;
+*/
+.bottom {
+  display: inline-block;
 }
 /*.coverimg {
   background-image: url("../images/coverimg.png");
