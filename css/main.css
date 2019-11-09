@@ -123,12 +123,12 @@ textarea {
 /* CSS for dropdown menu button*/
 
 .nav {
+  width: 40%;
   float: right;
   font-family: 'Quicksand', sans-serif;
   margin-top: 1vw;
   margin-right: 11vw;
   font-size: 1.1vw;
-  position: absolute;
   top: 10px;
   right: 15vw;
     list-style: none;
@@ -138,13 +138,13 @@ textarea {
     */
 }
 .nav li {
-    float: right;
-    margin-right: 10px;
+      display: inline;
+    margin-right: 40px;
     position: relative;
 }
 .nav a {
-    display: block;
-    padding: 5px;
+    display: inline;
+    padding: 10spx;
     color: #766d5c;
     text-decoration: none;
 }
@@ -192,7 +192,7 @@ body {
 }*/
 .page {
   width: 80%;
-  margin-left: 13%;
+  margin: auto;
 }
 .container img {
   width: 100%;
@@ -221,6 +221,11 @@ body {
   border-left: 2px solid #766d5c;
 
 
+}
+
+#workproject {
+  width: 30%;
+  margin: 5% 10%;
 }
 .categories {
   display: inline-block;
